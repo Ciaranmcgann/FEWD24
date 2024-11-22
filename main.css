@@ -17,3 +17,8 @@
   border-radius: 10px;
   cursor: pointer;
 }
+.SUBSCRIBE-button:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.Join-Button 
