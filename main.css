@@ -1,24 +1,45 @@
-.SUBSCRIBE-button {
-  background-color: rgb(194, 0, 0);
-  color: white;
-  border: none;
-  height: 36px;
-  width: 105px;
-  border-radius: 2px;
-  cursor: pointer;
+*{
+  text-decoration: none;
 }
-.Join-Button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(48, 115, 211);
-  border: 1px solid rgb(48, 115, 211);
-  border width: 1px;
-  height: 36px;
-  width: 62px;
-  border-radius: 10px;
-  cursor: pointer;
+.navbar{
+  background: crimson; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 15px; padding-right: 15px;
 }
-.SUBSCRIBE-button:hover {
-  background-color: rgb(255, 0, 0);
+.navdiv{
+  display: flex; align-items: center; justify-content: space-between;
 }
-
-.Join-Button 
+.Logo a{
+  font-size: 35px; color: rgb(255, 255, 255);
+  align-items: center; justify-content: space-between;
+}
+.Logo a:hover{
+  color: rgb(184, 226, 255);
+}
+li{
+  list-style-type: none; display: inline-block;
+}
+li a{
+  color: rgb(131, 21, 21); font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+button{
+  margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+}
+li a:hover{
+  color: rgb(184, 226, 255);
+}
+button:hover {
+  cursor: pointer; color: rgb(102, 102, 102);
+background-color: rgb(184, 226, 255);
+}
+.image{
+  width: 500px;
+}
+.divimage{
+  display: flex; justify-content: center;
+}
+p{
+  display: flex; justify-content: center; padding-left: 500px; padding-right: 500px;
+}
+.navdivbottom{
+  position: absolute; right: 0;
+}
