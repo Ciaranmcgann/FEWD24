@@ -39,6 +39,7 @@ background-color: rgb(184, 226, 255);
 }
 p{
   display: flex; justify-content: center; padding-left: 500px; padding-right: 500px;
+  font-size: 2em;
 }
 .navdivbottom{
   position: absolute; right: 0;
